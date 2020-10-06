@@ -1,7 +1,7 @@
 # Write your code here.
 require 'pry'
 katz_deli = []
-name = "Ada"
+
 
 def line(katz_deli)
   line_string = "The line is currently empty."
@@ -16,21 +16,10 @@ def line(katz_deli)
   puts line_string
 end
 
-
-
-
-
-
-
-
-
-
 def take_a_number(katz_deli, name)
 katz_deli << name
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
-
-
 
 
 def now_serving(katz_deli)
