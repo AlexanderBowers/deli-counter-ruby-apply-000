@@ -16,9 +16,19 @@ def line(katz_deli)
   puts line_string
 end
 
-def take_a_number(katz_deli, name)
-katz_deli << name
-puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+#def take_a_number(katz_deli, name)
+#katz_deli << name
+#puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+#end
+
+counter2 = 0
+def take_a_number(counter2) #walk in, take a number. print number in line
+
+  
+    #if someone comes in, add 1 to counter  
+    counter2 += 1
+    print counter2
+    
 end
 
 
