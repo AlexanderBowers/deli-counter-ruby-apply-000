@@ -24,11 +24,11 @@ end
 counter2 = 0
 def take_a_number(counter2) #walk in, take a number. print number in line
 
-  
-    #if someone comes in, add 1 to counter  
+
+    #if someone comes in, add 1 to counter
     counter2 += 1
     print counter2
-    
+
 end
 
 
